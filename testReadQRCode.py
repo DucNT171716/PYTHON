@@ -95,7 +95,7 @@ def extract_qr_codes(image_path):
     return results
 
 # Example usage
-qr_results = extract_qr_codes("SourceCode/PythonModule/StudentInfo/hocSinh2.jpg")
+qr_results = extract_qr_codes("SourceCode/PythonModule/StudentInfo/hocSinh3.jpg")
 print("Detected QR codes:")
 for i, result in enumerate(qr_results):
     print(f"QR Code #{i+1}: {result}")
